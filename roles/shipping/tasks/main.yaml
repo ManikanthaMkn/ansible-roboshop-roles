@@ -1,10 +1,10 @@
 - name: app setup
-  include.role:
+  include_role:
     name: common
     tasks_from: app-setup
 
 - name: maven setup
-  include.role:
+  include_role:
     name: common
     tasks_from: maven
 
@@ -24,6 +24,6 @@
   - /app/db/master-data.sql
 
 - name: systemd service
-  include.role:
+  include_role:
     name: common
     tasks_from: systemd
