@@ -1,0 +1,5 @@
+CART_HOST: cart.arohvya.online
+USER_HOST: user.arohvya.online
+AMQP_HOST: rabbitmq.arohvya.online
+RABBITMQ_HOST: roboshop
+RABBITMQ_PASSWORD: roboshop123
