@@ -1,4 +1,4 @@
-- name: Configure {{ componant }} Componant
+- name: "Configure {{ componant }} Componant"
   become: yes
   hosts: "{{ componant }}"
   roles:
