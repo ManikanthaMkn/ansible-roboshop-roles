@@ -1,2 +1,4 @@
 CART_HOST: cart.arohvya.online:8080
 MYSQL_HOST: mysql.arohvya.online
+MYSQL_ROOT_USER: root
+MYSQL_ROOT_PASSWORD: RoboShop@1
