@@ -25,7 +25,7 @@
   tags:
   - deployment
   community.general.npm:
-  path: /app
+    path: /app
 
 - name: restart {{ componant }}
   ansible.builtin.service:
