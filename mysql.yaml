@@ -1,7 +1,7 @@
 - name: "configure {{ componant }}"
   become: yes
   hosts: "{{ componant }}"
-  vars_files: 
-  - vault/mysql.yaml
+  # vars_files: 
+  # - vault/mysql.yaml
   roles:
   - "{{ componant }}"
