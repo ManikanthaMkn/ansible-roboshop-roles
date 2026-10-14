@@ -35,7 +35,7 @@
 
 - name: system setup
   include_role:
-    name: common
+  name: common
     tasks_from: systemd.yaml
 
 - name: Deployment
